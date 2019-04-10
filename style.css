@@ -1,0 +1,22 @@
+h1{
+font-family: Times New Roman;
+font-size: 22px;
+font-style: oblique;
+font-weight: 650;
+text-align: left;
+text-decoration: underline;/*no change in the heading*/
+text-indent: 30px;/*moves the word forward by 30px*/
+text-transform: capitalize;
+color: rgba(0,0,200,0.5); /*unless we want to make anything transparent we use rgba colors otherwise rgb colors.*/
+letter-spacing: 10px;/*or -10px to reduce space*/
+word-spacing: 10px;
+line-height: 60px;
+}
+p{
+  font-size: 22px;
+  line height: 40px;
+  text-indent: 30px;
+}
+a{
+  text-decoration: none; /*removed underline under the link or the one in the href  (a)*/
+}
